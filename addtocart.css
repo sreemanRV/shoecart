@@ -1,0 +1,223 @@
+body{
+                font-family: sans-serif;
+                font-size: 14px;
+                margin: auto;
+                padding:auto;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+    background-color: white;
+    position:sticky;
+    top:0;
+    color:#000;
+}
+
+.logo{
+    color:#000;
+}
+
+.navbar ul{
+    display:flex;
+    margin:auto;
+    list-style: none;
+    color:#000;
+}
+
+.navbar ul li{
+    padding: 10px 30px;
+}
+
+.navbar ul li a{
+    color:#000;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color:blueviolet;
+}
+
+.cart{
+    color:#000;
+    text-align: center;
+}
+.cart:hover{
+    color:blueviolet;
+}
+.showcase-name{
+    text-align: center;
+    flex: 0 0 100%;
+}
+#cart-count{
+    background-color: blueviolet;
+    border:1px transparent;
+    border-radius: 50px;
+    color:white;
+    font-size:14px;
+    z-index: 99;
+}
+.hero-section{
+    display:flex;
+    padding: 0px 40px;
+    color:#000;
+    background-color: lightskyblue;
+    align-items: center;
+}
+
+
+.shoe-collection{
+    color:blueviolet;
+    
+}
+
+.heading{
+    font-size: 28px;
+}
+
+#cta-button{
+    padding:8px 20px;
+    border:none;
+    font-size: 13px;
+    border-radius: 20px  ;
+    background-color:blueviolet;
+    color:#fff;
+}
+.productContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+    min-width: 20%;
+    gap: 3rem;
+    padding: 20px 80px;
+   
+}
+
+.product-list{
+    
+    padding: 30px 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-img{
+    height:150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.price {
+    line-height: 0px;
+    margin-bottom: 25px;
+}
+
+.addtocart-btn{
+   padding:6px 40px;
+   border: 1.5px solid;
+   border-color: blueviolet;
+   background-color: white;
+   color:blueviolet;
+   border-radius: 5px;
+}
+
+
+.addtocart-btn:hover{
+    background-color: blueviolet;
+    color:#fff;
+}
+
+.shoe-img{
+    height: 500px;
+    width: 530px;
+    overflow:hidden;
+}
+
+.addtocart{
+    position:fixed;
+    top:0;
+    right:-100%;
+    width: 200px;
+    height:100%;
+    overflow-y: auto;
+    padding: 20px;
+    z-index: 100;
+    background-color: #fff;
+    color: #000;
+    font-size: 11px;
+}
+
+.addtocart-active{
+    right:0;
+}
+
+.cart-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cart-box{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    border-bottom: 0.5px solid #D3D3D3;
+}
+
+.cart-img{
+    width:75px;
+    height:85px;
+    
+}
+
+.detail-box{
+    display: grid;
+    gap:1rem;
+}
+
+.price-box{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.fa-trash-can{
+    color: red;
+    font-size: 14px;
+}
+
+.total{
+    display:flex;
+    gap:10px;
+    justify-content:flex-end;
+    margin-top: 1rem
+}
+.total-title{
+    font-weight: 600;
+    
+}
+.total-price{
+    font-weight: 600;
+}
+.order-btn{
+    font-size:10px;
+    margin-top: 10px;
+    float: right;
+    padding: 6px 10px;
+    background-color: blueviolet;
+    color:white;
+    border: none;
+    font-weight: 600;
+    border-radius:3px;
+}
+.fa-circle-xmark{
+    margin-top:1rem;
+    position:absolute;
+    top:0;
+    right:0;
+    font-size: 1rem;
+}
+.cart-qty{
+    font-size: 10px;
+    text-align: center;
+}
